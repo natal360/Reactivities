@@ -38,7 +38,7 @@ export default observer(function ActivityDetailedInfo({activity}: Props) {
                         <Icon name='map marker alternate' size='large' color='teal'/>
                     </Grid.Column>
                     <Grid.Column width={11}>
-                        <span>{activity.vennue}, {activity.city}</span>
+                        <span>{activity.venue}, {activity.city}</span>
                     </Grid.Column>
                 </Grid>
             </Segment>

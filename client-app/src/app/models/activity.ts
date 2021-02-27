@@ -6,6 +6,6 @@ export interface Activity {
   description: string;
   category: string;
   city: string;
-  vennue: string;
+  venue: string;
 }
 

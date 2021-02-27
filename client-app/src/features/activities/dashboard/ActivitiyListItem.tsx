@@ -27,7 +27,7 @@ export default function ActivitiyListItem({activity}: Props) {
       <Segment>
         <span>
           <Icon name='clock' /> {activity.date}
-          <Icon name='map marker alternate' /> {activity.vennue}
+          <Icon name='map marker alternate' /> {activity.venue}
         </span>
       </Segment>
       <Segment secondary>
