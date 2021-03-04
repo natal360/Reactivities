@@ -2,7 +2,7 @@ import { observer } from 'mobx-react-lite';
 import React, { Fragment } from 'react';
 import { Header } from 'semantic-ui-react';
 import { useStore } from '../../../app/stores/store';
-import ActivitiyListItem from './ActivitiyListItem';
+import ActivityListItem from './ActivityListItem';
 
 
 export default observer(function ActivityList(){
@@ -17,7 +17,7 @@ export default observer(function ActivityList(){
             {group}
           </Header>
           {activities.map(activity => (
-            <ActivitiyListItem key={activity.id} activity={activity} />
+            <ActivityListItem key={activity.id} activity={activity} />
           ))}
         </Fragment>
       ))}
