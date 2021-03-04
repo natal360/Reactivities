@@ -2,6 +2,6 @@ namespace Application.interfaces
 {
   public interface IUserAccessor
   {
-    string GetUSername();
+    string GetUsername();
   }
 }

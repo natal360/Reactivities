@@ -12,7 +12,7 @@ namespace Infrastructure.Security
       _httpContextAccessor = httpContextAccessor;
     }
 
-    public string GetUSername()
+    public string GetUsername()
     {
       return _httpContextAccessor.HttpContext.User.FindFirstValue(ClaimTypes.Name);
     }
